@@ -9,7 +9,7 @@ public interface SeoulSetting {
 	String key="536c58687267757531334b46554b41";
 	
 	@GET(key+"/json/RealtimeCityAir/1/25/")
-	
+	  
 	Call<SeoulVO.GetAirQualityResponse> getAirQuality();
 	
 }

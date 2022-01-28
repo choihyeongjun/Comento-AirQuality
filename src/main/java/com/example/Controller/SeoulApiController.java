@@ -2,7 +2,7 @@ package com.example.Controller;
 
 import java.io.IOException;
 
-import com.example.CityAirQualityApplication;
+
 import com.example.Dto.SeoulVO;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

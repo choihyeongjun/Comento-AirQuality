@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 @AutoConfigurationPackage
 @ComponentScan("com.example")
 public class CityAirQualityApplication {
-
+ 
 	public static void main(String[] args) {
 		SpringApplication.run(CityAirQualityApplication.class, args);
 	}
