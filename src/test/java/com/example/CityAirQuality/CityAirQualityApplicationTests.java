@@ -4,21 +4,25 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
+
 
 import com.example.CityAirQualityApplication;
-import com.example.Controller.SeoulApiController;
+import com.example.Controller.SeoulApiCaller;
+
+import lombok.extern.slf4j.Slf4j;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+import org.json.simple.parser.ParseException;
+
 
 @SpringBootTest(classes=CityAirQualityApplication.class)
-
+@Slf4j
 class CityAirQualityApplicationTests {
 	 
 	
 	@Autowired
-	SeoulApiController seoul;
+	SeoulApiCaller seoul;
 	
 	
 	@Test

@@ -8,9 +8,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@EnableAutoConfiguration
-@AutoConfigurationPackage
-@ComponentScan("com.example")
 public class CityAirQualityApplication {
  
 	public static void main(String[] args) {
