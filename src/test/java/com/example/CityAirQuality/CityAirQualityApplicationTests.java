@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 
 import com.example.CityAirQualityApplication;
-import com.example.Controller.SeoulApiCaller;
+import com.example.infrastructure.Seoul.SeoulApiCaller;
 
 import lombok.extern.slf4j.Slf4j;
 

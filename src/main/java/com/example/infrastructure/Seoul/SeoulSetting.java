@@ -1,6 +1,4 @@
-package com.example.Controller;
-
-import com.example.Dto.SeoulVO;
+package com.example.infrastructure.Seoul;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

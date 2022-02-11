@@ -16,18 +16,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.Dto.SeoulVO.GetAirQualityResponse;
-import com.example.Dto.SeoulVO.Row;
+import com.example.infrastructure.Seoul.SeoulApiCaller;
+import com.example.infrastructure.Seoul.SeoulVO.GetAirQualityResponse;
+import com.example.infrastructure.Seoul.SeoulVO.Row;
 
 
 //@RestController
-@Controller
+//@Controller
 public class SeoulController {
 	
-	@Autowired
+	/*@Autowired
 	SeoulApiCaller seoul;
-	@Autowired
-	SeoulDataPasing paring;
+	//@Autowired
+	//SeoulDataPasing paring;
 	@GetMapping("/v1/api/air-quality/{city}")
 	public String SeoulAll(@PathVariable("city")String city,Model model) {
 		JSONObject object=paring.ParsingData();
@@ -87,6 +88,6 @@ public class SeoulController {
 		}
 		model.addAttribute("response",object2);
 		return "/responseall";
-	}
+	}*/
 
 }

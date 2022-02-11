@@ -1,4 +1,4 @@
-package com.example.Dto;
+package com.example.infrastructure.Seoul;
 
 import java.util.List;
 import java.util.Objects;
@@ -74,12 +74,6 @@ public class SeoulVO {
 		private double co;
 		@JsonProperty("SO2")
 		private double so2;
-		@JsonProperty("IDEX_NM")
-		private String totalGrade;
-		@JsonProperty("IDEX_MVL")
-		private double qualityIndex;
-		@JsonProperty("ARPLT_MAIN")
-		private String material;
 		private String pm10Grade;
 		private String pm25Grade;
 		private String o3Grade;
