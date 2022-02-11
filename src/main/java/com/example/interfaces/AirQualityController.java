@@ -16,7 +16,7 @@ import lombok.extern.slf4j.Slf4j;
 public class AirQualityController {
 	 private final AirQualityService airQualityService;
 
-	    @GetMapping("/api/v1/air-quality/{city}")
+	    @GetMapping("/v1/api/air-quality/{city}")
 	    public AirQualityDto.GetAirQualityInfo getAirQualityInfo(@PathVariable("city") String city,
 	                                                             @RequestParam(required = false) String gu) {
 	    	System.out.println("controller");
